@@ -7,6 +7,7 @@ mobileApp.tables.add('Clients'); // Create a table for 'Book' with default setti
 mobileApp.tables.add('Tracks'); // Create a table for 'Book' with default settings
 mobileApp.tables.add('Bikes'); // Create a table for 'Book' with default settings
 mobileApp.tables.add('Bookings');
+mobileApp.tables.add('SignedTracks');
 
 app.use(mobileApp);
 app.listen(process.env.PORT || 3000);
